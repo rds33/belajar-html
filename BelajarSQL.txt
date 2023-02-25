@@ -1,0 +1,9 @@
+SELECT * FROM `mata_pelajaran` WHERE nama="indofood";
+//* artinya select all column
+
+insert into table_name (column_name)
+values (column_values)
+
+SELECT nama FROM mata_pelajaran;
+
+SELECT siswa.nama, siswa.kelas, mata_pelajaran.nama FROM siswa INNER JOIN mata_pelajaran on siswa.id_mata_pelajaran=mata_pelajaran.id;
